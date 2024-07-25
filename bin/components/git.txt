@@ -7,3 +7,12 @@ git log
 
 git status 
 //shows the status of the working directory
+
+git add
+//to stage files to be commited
+
+git commit
+//for commiting staged files
+
+git commit -a -m "First Commmit"
+//for committing wihout adding(-a) or staging the files first 
