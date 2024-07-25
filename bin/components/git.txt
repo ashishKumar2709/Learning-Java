@@ -3,7 +3,7 @@ git init -b main
 just git init will initialize it with master branch
 
 git log
-//shows commit history
+//shows commit history (q to exit back to terminal)
 
 git status 
 //shows the status of the working directory
@@ -16,3 +16,13 @@ git commit
 
 git commit -a -m "Second Commmit"
 //for committing wihout adding(-a) or staging the files first 
+
+git diff
+//shows changes between working directory and staging area
+
+git diff --staged
+//shows changes between staging aarea and last commit
+
+git rm --cached <filename>
+//this command deletes the file from staging area without deleting it from working directory.
+//can be used when file is added to gitignore after it was staged.
