@@ -14,5 +14,5 @@ git add
 git commit
 //for commiting staged files
 
-git commit -a -m "First Commmit"
+git commit -a -m "Second Commmit"
 //for committing wihout adding(-a) or staging the files first 
