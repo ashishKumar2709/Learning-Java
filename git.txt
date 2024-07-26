@@ -26,3 +26,6 @@ git diff --staged
 git rm --cached <filename>
 //this command deletes the file from staging area without deleting it from working directory.
 //can be used when file is added to gitignore after it was staged.
+
+ssh-keygen -o
+//generate ssh keys to connect local machine to remote repository.
