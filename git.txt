@@ -77,3 +77,9 @@ to delete a particular branch
 
 git log --graph
 show graphical view of commits
+
+git pull origin <branchname(content of which we want to pull from remote repository)>
+to pull the content or sync with the content of the remote repsoitory.
+
+git merge <branchName>
+merge the changes of the current branch with the metioned branch
