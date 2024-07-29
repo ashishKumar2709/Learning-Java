@@ -29,3 +29,51 @@ git rm --cached <filename>
 
 ssh-keygen -o
 //generate ssh keys to connect local machine to remote repository.
+
+git push origin <branchname>
+//to push the current commited file changes to remote repository
+
+git remote -v
+//to check the remote repository of local repository
+
+git tag
+//to list all the tags in the repository
+
+git tag <tagname>
+to create a lightweight tag
+
+git tag -a <tagname> -m "message"
+to create a tag with message annotation
+
+git show <tagname>
+to show tag details
+
+git tag -d <tagname>
+to delete a particular tagname
+
+git push origin --tags
+to push all tags to remote repository
+
+git push origin <tagname>
+to push specific tag to remote repository
+
+git switch <branchname>
+to switch to a particular branch
+
+git switch -c <branchname>
+create and switch to a branch
+
+git branch
+lists all the local branches
+
+git branch --all
+lists all the local as well as remote branches
+
+git switch -
+switches to previous branch
+
+git branch -d <branchname>
+to delete a particular branch
+
+git log --graph
+show graphical view of commits
