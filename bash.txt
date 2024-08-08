@@ -1,0 +1,74 @@
+echo <message>
+To print a message in the terminal.
+
+pwd
+fullform: Print working directory. Gives the path of the current directory
+
+ls
+list files and folders in the current directory.
+
+cd <folder_name>
+changes current directory to the the folder available in the current directory.
+
+cd ..
+takes current directory to one level out.
+
+cd ../..
+changes current directory two level out.
+
+more <filename>
+to view the contens of a file in terminal.
+
+clear
+to clear the terminal
+
+ls -l
+list the files and folder in the current directory in long list format.
+
+mkdir <folder_name>
+creates a folder with name <folder_name> in current directory.
+
+mkdir <path/folder_name>
+creates a folder with name <folder_name> in destination directory.
+
+touch <path/filename> 
+creates a file with name <filename> in the destination directory.
+
+<command> --help
+to display usage of the command and associated flags that can be used with it.
+
+ls -a or ls --all
+list all the files in the directory including hidden files.
+
+cp <file> <destination path>
+copies a file in the current directory to the destination folder.
+
+rm <filename>
+removes file with name <filename> in the current directory.
+
+mv <filename> <new_filename>
+rename a file with name <filename> to name <new_filename> 
+
+mv <file> <destination path>
+moves a file in current directory to destination directory.
+
+mv <path/filename> <destination path>
+moves a file in mentioned directory to destination directory.
+
+find <folder_name>
+display a tree of folders within a folder with name <folder_name> in the current directory.
+
+find -name <filename>
+to search for a specific file or folder. It shows the location of the file or folder.
+
+rmdir <directory_name>
+to remove a directory if the directory is empty
+
+rm -r <folder_name>
+removes folder and its content recursively.
+
+echo <text> >> <filename>
+to print the entered text in the file named <filename>
+
+cp -r <folder_to_copy> <new_copy_folder_name>
+recursively copies a folder and its content to a new folder.
